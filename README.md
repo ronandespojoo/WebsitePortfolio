@@ -7,8 +7,11 @@ success in thanks to the teams I've been part of, as well as my experiences in p
 My portfolio website is composed of these pages:
 
 🏡 Landing Page { index.html { Features a hero section highlighting the most significant parts of my journey in development.
+
 👨🏼‍🚀 About { about.html { How I look in the zone! Also includes my aspirations and some of my hobbies.
+
 ⌨️ Tech { projects.html { Programming languages ad development experience I've acquired.
+
 ⁉️ Questions { Under Development { My Contact Form 
 
 Some Features!
