@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en"> 
+    <head>
+        <!-- Color Palette Online: https://imagecolorpicker.com/-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Ronan's Portfolio </title>
+        <link rel="stylesheet" href="styles.css">
+        <!-- Icons via FontAwesome-->
+        <script src="https://kit.fontawesome.com/dfeea119f5.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bitcount+Prop+Double:wght@100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        </head>
+        <body>
+            <!-- Nav bar-->
+             <nav class="navbar"> 
+                <!-- Tip: .class name then press tab to automatically create a div -->
+                <div class="navbar__container">
+                    <a href="index.html" id="navbar__logo">
+                        <i class="fas fa-rocket"></i>Ronan's Portfolio</a>
+                    <!-- JavaScript implemented here -->
+                     <!-- Navbar dropdown menu (3 bars) -->
+                    <div class="navbar__toggle" id="mobile-menu">
+                        <span class="bar"></span> <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                <ul class="navbar__menu">
+                    <!-- Menu Items part of Navbar Links Class-->
+                     <!-- Navbar__links in CSS - how to format Words themselves-->
+                      <!-- Navbar__item in CSS - how to format the list-->
+                    <li class="navbar__item">
+                        <a href="about.html" class="navbar__links"> About </a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="passion.html" class="navbar__links">Tech</a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="projects.html" class="navbar__links">Projects</a>
+                        </li>
+                        <li class="navbar__btn">
+                            <!-- Should accept data from user -->
+                            <a href="/" class="button">Any Questions?</a>
+                        </li>
+                </ul>
+                </div>
+             </nav>
+
+             <!-- ADD: Hero Section - About Ronan or Introductory Page-->
+
+             <!-- Hero Section-->
+              <div class="main">
+                <div class="main__container">
+                    <div class="main__content">
+                     <!-- ADD IMAGES ABOVE TEXT, THEN LINK BOTH -->
+                        <h1>About the Developer</h1>
+                        <p>3rd Year Student at Ateneo de Manila University. Aspiring backend developer. Running enthusiast. Builds model planes in his free time. </p>
+                        <button class="main__btn">
+                            <a href="/"> Make an Inquiry</a>
+                        </button>
+                    </div>
+                    <div class="main__image--container">
+                        <img src="images/pic1.svg" alt="Ronan Despojo Picture" class="main__img">
+                    </div>
+                </div>
+              </div>
+
+              <!-- Link to My Projects Based on Language -->
+              <div class="languages">
+                <h1>Development Experience</h1>
+                    <div class="languages__container">
+                        <div class="languages__box">
+                            <img src="" alt="Languages" class="languages__img">
+                            <h2><a href="passion.html" class="languages__item">Programming Experience</h2></a>
+                            <p class="languages__description">PASS</p>
+                        </div>
+                        <div class="languages__box">
+                            <img src="" alt="GitHub" class="languages__img">
+                            <h2><a href="" class="languages__item">GitHub</h2></a>
+                            <p class="languages__description">PASS</p>
+                        </div>
+                    <div class="languages__box">
+                        <img src="" alt="Projects" class="languages__img">
+                        <h2><a href="projects.html" class="languages__item">Projects</h2></a>
+                        <p class="languages__description">PASS</p>
+                    </div>
+                    </div>
+                    </div>
+                    <div class="languages__button">
+                        <button><a href="" class="language__button">Got Any Questions?</button></a>
+                    </div>
+
+<!-- Old Code for Languages (List, Vertically Stacked)
+              <div class="languages">
+                <h1>See what the hype is about!</h1>
+                <div class="languages__container">
+                    <div class="languages__card">
+                        <li class="languages__links">
+                            <h2><a href="" class="languages__item">Programming Experience</h2></a>
+                            </li>
+                            <li class="languages__links">
+                                <h3><a href="" class="languages__item">GitHub</h3></a>
+                            </li>
+                            <li class="languages__links">
+                                <h4><a href="" class="languages__item">Projects</h4></a>
+                            </li>
+                        </li>
+                    </div> -->
+                            <!-- Make this Active only on @media screen for Mobile; desktop has on navbar 
+                            <li class="experiences__button">
+                                <button><a href="" class="button">Got Any Questions</button></a>
+                            </li>
+                    </div>
+                    </div>
+                </div>
+              </div> 
+            -->
+
+        <!-- Animations with JS -->
+             <script src="app.js"></script>
+        </body>
+</html>
